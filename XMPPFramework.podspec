@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'XMPPFramework'
-  s.version = '3.7.0'
+  s.version = '3.7'
 
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '8.0'
@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.summary = 'An XMPP Framework in Objective-C for the Mac / iOS development community.'
   s.homepage = 'https://github.com/robbiehanson/XMPPFramework'
   s.author = { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-#  s.source = { :git => 'https://github.com/robbiehanson/XMPPFramework.git', :tag => s.version }
-s.source = { :git => 'https://github.com/robbiehanson/XMPPFramework.git', :branch => 'master' }
+  s.source = { :git => 'https://github.com/frajaona/XMPPFramework.git', :tag => s.version }
+# s.source = { :git => 'https://github.com/robbiehanson/XMPPFramework.git', :branch => 'master' }
   s.resources = [ '**/*.{xcdatamodel,xcdatamodeld}']
 
   s.description = 'XMPPFramework provides a core implementation of RFC-3920 (the xmpp standard), along with
